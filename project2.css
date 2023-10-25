@@ -1,0 +1,193 @@
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+.menu-bar 
+{
+    background: rgb();
+    background-color: rgba(4, 104, 255, 0.918);
+    text-align:center;
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: beige;
+}
+.menu-bar ul li
+{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: beige;
+}
+.active,.menu-bar ul li:hover
+{
+    background-color: rgb(117, 191, 252);
+    border-radius: 3px;
+}
+.sub-menu-1
+{
+    display:none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+     display: block;
+     position:absolute;
+     background: rgb(117, 191, 252);
+     margin-top: 15px;
+     margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+    display:block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+    width:150px;
+    padding:10px;
+    border-bottom:1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+    border-bottom: none;
+}
+
+.box
+{
+    margin: 10px; 
+    background-color: rgba(64, 124, 214, 0.8);
+    color: #fff;
+    text-align: center;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(112, 103, 103);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.bor
+{
+    margin: 15px;
+}
+
+.box1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px; 
+    background-color: rgba(64, 124, 214, 0.8);
+    color: #fff;
+    text-align: center;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(112, 103, 103);
+}
+.box2{
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    margin: 10px; 
+    background-color: rgba(64, 124, 214, 0.8);
+    color: #fff;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(112, 103, 103);
+
+}
+.box3{
+    float: left;
+}
+.box4{
+    padding-left: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px; 
+    background-color: rgba(64, 124, 214, 0.8);
+    color: #fff;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(112, 103, 103);
+}
+
+.container{
+    width: 700px;
+    margin: 0 auto;
+}
+.list1,.list2,.list3{
+    align-items: center;
+    width: 200px;
+    float:left;
+    margin: 10px;
+    
+}
+.container,.list1,.list2,.list3{
+    background-color: rgba(64, 124, 214, 0.8);
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(112, 103, 103);
+
+}
+.table{
+    padding-left: 100px;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    margin: 10px; 
+    background-color: rgba(248, 236, 236, 0.8);
+    color: #0c0b0b;
+    text-align: center;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(112, 103, 103);
+    
+
+
+}  
+.inline{
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    margin: 10px; 
+    background-color: rgba(64, 124, 214, 0.8);
+    color: #fff;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(112, 103, 103);
+    display: inline;
+}
+.table2{
+
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    margin: 10px; 
+    background-color: rgba(64, 124, 214, 0.8);
+    color: #fff;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(112, 103, 103);
+
+}
+.table3{
+    display:inline-block;
+    background-color: rgba(64, 124, 214, 0.8);
+    color: rgb(15, 11, 5);
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: double;
+    border-color: rgb(10, 231, 10);
+    border-radius: 5px;   
+}

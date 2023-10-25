@@ -1,0 +1,101 @@
+<html>
+
+<body>
+.table{
+    padding-left: 100px;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    margin: 10px; 
+    background-color: rgba(248, 236, 236, 0.8);
+    color: #0c0b0b;
+    text-align: center;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(112, 103, 103);
+    
+
+
+    
+
+
+
+
+
+
+
+
+<div class="table">
+    <h3>CRITERIA & WEIGHTAGES</h3>
+    <p>NAAC has identified a set of seven criteria to serve as the basis of its assessment procedures. NAAC has categorized the Higher Educational Institutions into three major types (University, Autonomous College, and Affiliated/Constituent College) and assigned different weightages to these criteria under different key aspects based on the functioning and organizational focus of the three types of HEIs.
+ 
+
+        Key Indicators and Weightages</p>
+        <br><br>
+        The criterion-wise differential weightages for the three types of HEIs are:
+        <hr>
+<table style="width: 90%;" border="1">
+    <br><br>
+
+    <tbody>
+    <tr>
+    <td>Curricular Aspects</td>
+    <td>150 (U)</td>
+    <td>150 (Au)</td>
+    <td>100 (Aff UG)</td>
+    <td>100 (Aff PG)</td>
+    </tr>
+    <tr>
+    <td>Teaching-learning &amp; Evaluation</td>
+    <td>200 (U)</td>
+    <td>300 (Au)</td>
+    <td>350 (Aff UG)</td>
+    <td>350 (Aff PG)</td>
+    </tr>
+    <tr>
+    <td>Research, Innovations &amp; Extension</td>
+    <td>250 (U)</td>
+    <td>150 (Au)</td>
+    <td>110 (Aff UG)</td>
+    <td>120 (Aff PG)</td>
+    </tr>
+    <tr>
+    <td>Infrastructure &amp; Learning Resources</td>
+    <td>100 (U)</td>
+    <td>100 (Au)</td>
+    <td>100 (Aff UG)</td>
+    <td>100 (Aff PG)</td>
+    </tr>
+    <tr>
+    <td>Student Support &amp; Progression</td>
+    <td>100 (U)</td>
+    <td>100 (Au)</td>
+    <td>140 (Aff UG)</td>
+    <td>130 (Aff PG)</td>
+    </tr>
+    <tr>
+    <td>Governance, Leadership &amp; Management</td>
+    <td>100 (U)</td>
+    <td>100 (Au)</td>
+    <td>100 (Aff UG)</td>
+    <td>100 (Aff PG)</td>
+    </tr>
+    <tr>
+    <td>Institutional Values &amp; Best Practices</td>
+    <td nowrap="nowrap">100 (U)</td>
+    <td nowrap="nowrap">100 (Au)</td>
+    <td nowrap="nowrap">100 (Aff UG)</td>
+    <td nowrap="nowrap">100 (Aff PG)</td>
+    </tr>
+    </tbody>
+    </table>
+    </div>
+
+
+    body
+{
+background-image: url(logo1.png);
+height: 500px;
+background-position:center;
+background-repeat:no-repeat;
+font-family:sans-serif;
+background-attachment: fixed;

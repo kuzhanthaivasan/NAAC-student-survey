@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  /* Reset some default styling */
+  body, ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Style the navigation menu */
+  nav {
+    background-color: #3498db; /* Blue color */
+  }
+
+  .menu {
+    list-style: none;
+    display: flex;
+  }
+
+  .menu li {
+    margin: 0 15px;
+  }
+
+  .menu a {
+    text-decoration: none;
+    color: white;
+  }
+
+  /* Style the dropdown menu */
+  .dropdown {
+    position: relative;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #3498db; /* Blue color */
+    padding: 10px;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown-content a {
+    color: white;
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+  }
+</style>
+</head>
+<body>
+  <nav>
+    <ul class="menu">
+     <li class="dropdown">
+        <a href="#">Home</a>
+      <ul class="dropdown-content">
+        <li><a href="#">Web Design</a></li>
+        <li><a href="#">Graphic Design</a></li>
+        <li><a href="#">SEO</a></li>
+      </ul>
+      </li>
+      <li class="dropdown">
+        <a href="#">Services</a>
+        <ul class="dropdown-content">
+          <li><a href="#">Web Design</a></li>
+          <li><a href="#">Graphic Design</a></li>
+          <li><a href="#">SEO</a></li>
+        </ul>
+      </li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+</body>
+</html>
+
+
